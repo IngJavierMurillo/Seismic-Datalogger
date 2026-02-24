@@ -1,0 +1,25 @@
+﻿# STM32/CubeIDE
+**/Debug/
+**/Release/
+**/.settings/
+**/.metadata/
+**/*.launch
+
+# Build artifacts
+*.o
+*.d
+*.elf
+*.map
+*.lst
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
