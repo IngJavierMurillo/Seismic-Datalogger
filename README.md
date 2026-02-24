@@ -16,3 +16,38 @@ The system is composed of:
 ---
 
 ## Repository Structure
+
+---
+
+## STM32 Firmware
+
+- Bare-metal (CMSIS-based)
+- Modular drivers (GPIO, SPI, UART, DMA, Timers, etc.)
+- External ADC interface (e.g., ADS1256 if applicable)
+- Deterministic acquisition loop
+- Robust time-stamping strategy
+
+---
+
+## Raspberry Pi 5 Software
+
+- Data reception and buffering
+- Time synchronization handling
+- Conversion/export to miniSEED
+- Service management (systemd if applicable)
+
+---
+
+## Key Design Objectives
+
+- Continuous seismic data recording
+- Robust and precise time-stamping
+- Modular and scalable architecture
+- Low-cost alternative to commercial seismic recorders
+- Easy data extraction and standard-compliant output
+
+---
+
+## Thesis Context
+
+Design, implementation, and experimental validation of a seismic (accelerographic) data acquisition system based on STM32 and Raspberry Pi platforms.
